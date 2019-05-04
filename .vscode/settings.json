@@ -1,7 +1,7 @@
 {
     "python.pythonPath": "/mnt/c/Users/Austin\\Miniconda3\\envs\\PyGis\\libs/python37.lib",
-    "python.linting.pylintEnabled": false,
-    "python.linting.banditEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.banditEnabled": false,
     "python.linting.enabled": true,
     "liveServer.settings.port": 5501
 }
