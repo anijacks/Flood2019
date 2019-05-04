@@ -24,9 +24,7 @@ gdb = gdb.to_crs({'init' :'epsg:4326'})
 
 gdb.to_file('extent.geojson',driver='GeoJSON',encoding="utf-8")
 
-u = mb.Uploader(access_token=
-    'sk.eyJ1IjoiYXBhZ290dG8iLCJhIjoiY2pxMWtvZ2x4MHI5e'
-    'DQzbWw3MWJvb25rYyJ9.gikzZ_MkiSwRAtgwigdiBw')
+u = mb.Uploader(access_token=sk)
 
 url = u.stage(open('ottawa_flood.geojson', 'rb'))
 job = u.create(url, 'ottawa_flood').json()
